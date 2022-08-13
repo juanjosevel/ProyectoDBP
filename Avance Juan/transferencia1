@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8" />
+	<title>Transferencia</title>
+	<link rel="stylesheet" href="estilos.css">
+	<script type='text/javascript' src='omega.js'></script>
+</head>
+<body>
+	<div class="contenedor">
+		<h2>Transferir a otra cuenta Scotiabank</h2>
+		<form>
+			<div class="relleno">
+				<div id='cabecera' style='text-align: center;'>
+
+					<div class="a">
+					Cuenta de origen<br />
+					<input class="campos" id="cuenta" type="text">
+					</div>
+					<br>
+					<div id='wrapper' style='text-align: center;'>					
+					    <span class="b">
+					  	Moneda<br />
+					    <input class="fiera" id="telefono55" type="text">
+					    </span> 
+
+					    <span class="b">
+					  	Monto<br />
+					    <input class="fiera" id="monto" type="number" oninput="myFunction()">
+					    <p id="demo"></p>
+					    <br>
+					    <br>
+					    <br>
+					    </span> 
+					</div>
+					<div class="a">
+					Tipo de cuenta de destino<br />
+					<input class="campos" id="tipocuentadestino" type="text">
+					</div>
+					<br>
+					<div class="a">
+					Cuenta de destino<br />
+					<input class="campos" id="cuentades" type="text">
+					</div>
+				</div>
+
+					<div id='final1' style='text-align: center;'>					
+					    <span class="b">
+					  	
+					    <button id="volver" class="vuelve" type="button">← Volver</button>
+					    </span> 
+
+					    <span class="b">					  	
+					    <button id="btncontinuar" class="btn" type="button">Continuar</button>
+					    </span> 
+					</div>				
+			</div>
+		</form>
+	</div>
+</body>
+</html>
